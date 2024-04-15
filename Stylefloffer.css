@@ -1,0 +1,231 @@
+/* header */
+.badge {
+    font-size: x-small;
+    background-color: rgb(255, 69, 2);
+    vertical-align: text-bottom;
+}
+
+nav ul li {
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+nav ul li a {
+    text-align: center;
+}
+
+/* banner */
+.banner {
+    padding: 60px;
+}
+
+.text-white {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media screen and (max-width: 991px) {
+    .banner {
+        padding: 20px;
+    }
+}
+
+/* important */
+.container-fluid {
+    max-width: 1150px;
+}
+
+
+/* section */
+
+.section {
+    background-color: rgb(237, 253, 249);
+
+}
+
+#img1 {
+    width: 20px;
+    height: 20px;
+}
+
+.small {
+    color: grey;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.clickbtn a {
+    text-decoration: none;
+    font-size: 13.5px;
+    color: orangered;
+    font-weight: 500;
+}
+
+.img1 {
+    padding: 20px;
+    background-color: rgb(255, 251, 251);
+    overflow: hidden;
+    border-radius: 1%;
+    width: 98%
+        /* only for one box(one column)*/
+}
+
+.bo {
+    background-color: rgb(249, 242, 233);
+    border: 1px dotted rgb(200, 196, 193);
+    width: 150px;
+}
+
+
+/* for copy code come to centre and padding of row2 after minimize */
+
+
+@media screen and (max-width: 768px) {
+    .row2 {
+        margin-top: -25px;
+    }
+   
+   
+}
+
+/* bank offer */
+
+@media screen and (max-width: 768px) {
+   .bank2{
+    padding-top: 20px;
+   }
+  
+}
+
+
+/* operate food store */
+
+/* footer 1 */
+.wwu {
+    color: orangered;
+}
+.footer1 h5 {
+    padding: 60px;
+}
+@media screen and (max-width: 768px) {
+    .footer1 h5{
+     padding: 20px;
+    }
+  
+ }
+ @media screen and (max-width: 560px) {
+    .footer1 h5{
+     font-size: small;
+    }
+ }
+
+
+ /* footer 2 */
+ .footer2 {
+    background-color: rgb(237, 253, 249);
+}
+
+.list li{
+    list-style-type: none;
+    margin-left: -32px;
+
+
+}
+.list a {
+    text-decoration: none;
+    color: #808080;
+    line-height: 25px;
+}
+
+@media screen and (max-width: 560px) {
+    .col-md-7 h6{
+        font-size: small;
+    }
+ }
+
+ .form-control{
+ border-radius: 0%;
+ 
+ }
+ .btn{ 
+    border-radius: 0%;
+    background-color: orangered;
+    color: white;
+ }
+ .btn:hover{
+background-color: orangered;
+ }
+.input-group{
+    width: 80%;
+}
+.input-group ::placeholder{
+    font-size: small;
+}
+@media screen and (max-width: 767.5px) {
+    .input-group{
+        width: 100%;}
+ }
+ .downloadapp {
+    width: 110px;
+    height: 33px;
+}
+
+/* footer4 */
+.footer4 {
+    background-color: rgb(237, 253, 249);
+    padding: 20px 0;
+}
+.footer4 h6{
+    margin-top: -8px;
+    font-size: 12px;
+}
+@media screen and (max-width: 300px) {
+    /* body{
+       display: none;
+    } */
+}
+ 
+
+
+
+
+
+
+
+/* My account offferss************************************************************************************ */
+
+.osahan-account-page-left{
+    font-size: 13px;
+}
+.osahan-user-media img {
+    width: 90px;
+}
+.osahan-user-media-body a{
+text-decoration: none;
+}
+.osahan-user-media-body .text-danger:hover {
+    color: #0056b3 !important;
+}
+.nav-tabs1{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+   
+  }
+  .osahan-account-page-left .nav-link.active {
+    background: #f3f7f8;
+    color: #282c3f !important;
+  }
+  .osahan-account-page-left .nav-link {
+    padding: 18px 20px;
+    border: none;
+    font-weight: 600;
+  }
+  .nav-link {
+    display: block;
+    color: #282c3f !important;}
+

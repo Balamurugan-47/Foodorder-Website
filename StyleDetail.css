@@ -1,0 +1,590 @@
+/* header */
+.bgorange {
+    font-weight: 500;
+    background-color: rgb(255, 69, 2);
+    vertical-align: text-bottom;
+}
+
+nav ul li {
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+nav ul li a {
+    text-align: center;
+}
+
+/* important */
+.container-fluid {
+    max-width: 1140px;
+}
+
+
+/* banner */
+section{
+    background-color: rgb(237, 253, 249);
+}
+.restaurant-detailed-banner .img-fluid.cover {
+    height: 424px;
+    object-fit: cover;
+}
+
+.restaurant-detailed-header {
+    bottom: 0;
+    left: 0;
+    padding: 75px 0 17px;
+    /* doubt */
+    position: absolute;
+    right: 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.83) 100%);
+    line-height: 1.8;
+}
+
+.restaurant-detailed-header-left h2 {
+    font-weight: 400;
+}
+
+.restaurant-detailed-header-left img {
+    width: 88px;
+    height: 88px;
+    border-radius: 3px;
+    object-fit: cover;
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+}
+
+.restaurant-detailed-banner {
+    position: relative;
+}
+
+.restaurant-detailed-header-left {
+    text-shadow: 0 0 10px #000;
+    position: absolute;
+    bottom: 0;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+/* sec2 */
+
+.btn-light {
+    color: #212529;
+    background-color: rgb(237, 253, 249);
+    border-color: #f8f9fa;
+  }
+.fa-heart{
+    color: red;
+}
+
+.nav-item {
+   list-style: none;
+}
+.offer-dedicated-nav .nav-link.active, .offer-dedicated-nav .nav-link:hover,
+ .offer-dedicated-nav .nav-link:focus {
+    border-color: #3868fb;
+    color: #3868fb;
+  }
+  .offer-dedicated-nav .nav-link {
+    border-bottom: 2px solid #fff;
+    border-bottom-color: rgb(255, 255, 255);
+    padding: 16px 0px;
+    font-weight: 600;
+    font-size: 13px;
+   
+  }
+  .nav-link {
+    display: block;
+  }
+  .col-md-12 span{
+   margin-top: 12px;
+  }
+  .offer-dedicated-nav .nav-item {
+    margin: 0 37px 0 0;
+   
+  }
+  @media (max-width: 603px){
+    .options{
+      flex-direction: column;
+      text-align: center;
+      
+      
+    }
+ 
+  .nav-item .nav-link{
+    margin-left: 40px;
+    padding: 8px;
+  }
+}
+
+  @media (max-width: 768px){
+    .restaurant-detailed-header{
+        display: none;
+    }
+  }
+  @media (max-width: 991.98px){
+.restaurant-detailed-action-btn.float-end {
+    float: none !important;
+    margin: auto;
+    text-align: center;
+    width: 100% !important;
+    display: block;
+    padding: 12px 0;
+    border-bottom: 1px solid #dedede;
+}
+  }
+
+/* sec3 */
+@media (max-width: 500px){
+  .owl-carousel-five, .mostp{
+    display: none;
+  }
+}
+
+
+  .explore-outlets-search .form-control {
+    border-radius: 2px !important;
+    font-size: 15px;
+    height: 50px;
+    padding: 5px 20px;
+    position: relative;
+  }
+  .input-group-append{
+    position: absolute;
+    right: 0;
+    
+  }
+  .owl-item{
+    width: 136.4px;
+  }
+  .mall-category-item a{
+    text-decoration: none;
+  }
+  .mall-category-item img {
+    height: 89px;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .mall-category-item {
+    outline: 1px solid rgba(0,0,0,.1);
+    border-radius: 3px;
+    margin: 0 6px;
+    overflow: hidden;
+    text-align: center;
+    padding: 0 0 7px;
+    font-size: 0px;
+  }
+  .mall-category-item h6{
+     font-weight: 400;
+  } 
+
+  .mall-category-item small {
+    background: #ececec;
+    color: #f32129;
+    padding: 1px 6px;
+      padding-top: 1px;
+      padding-right: 6px;
+      padding-bottom: 1px;
+      padding-left: 6px;
+    border-radius: 2px;
+    font-size: 10px;
+  }
+  .small, small {
+    font-weight: 600;
+  }
+  .mall-category-item:hover small {
+    background: #f32129;
+    color: #fff;
+  }
+  .owl-theme .owl-nav button {
+    border-radius: 30px;
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,.2);
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    background-color: white;
+    border: none;
+    font-size: smaller;
+    
+  }
+  .bodyy{
+    position: relative;
+}
+
+.owl-prev{
+    position: absolute;
+   left: 10px;
+    bottom: 80px;
+}
+.owl-next{
+    position: absolute;
+    right: 15px;
+   bottom: 80px;
+}
+
+/* sec4 */
+.list-card-image img{
+    height: 140.66px;
+    object-fit: cover;
+    width: 100%;
+    
+}
+.badge2{
+    background-color: rgb(62, 62, 62);
+    font-weight: 500;
+}
+.favourite-heart{
+    position: absolute;
+    right: 0;
+}
+.list-card .favourite-heart i {
+    background:white;
+    width: 23px;
+    height: 23px;
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    border-radius: 50px;
+    color: red;
+  }
+  .list-card .favourite-heart i:hover{
+    color: blue;
+  }
+
+  .list-card-image {
+    position: relative;
+    overflow: hidden;
+}
+  .star{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.badge3, .badge2, .badge, .badge4{
+    font-weight:500;
+}
+.list-card-body a{
+    text-decoration: none;
+}
+.list-card-body p, .list-card-badge{
+    font-size: 13px;
+}
+.left-dec, .right-inc, .count-number-input{
+    width: 24px;
+    height: 24px;
+}
+.count-number .btn  {
+  padding: 2px 5px;
+  font-size: 12px; 
+}
+.count-number i{
+  font-size: 11px;
+}
+.count-number-input {
+    text-align: center;
+    background: #6c757d;
+    border: none;
+    color: white;
+}
+
+/* sec5 */
+
+.food-item {
+  border: 1px solid;
+  border-radius: 2px;
+  display: inline-block;
+  font-size: 6px;
+  height: 13px;
+  line-height: 11px;
+  text-align: center;
+  width: 13px;
+}
+.media-body p{
+  font-size: 13px;
+}
+.bvalign {
+  padding: .25em .4em;
+ border-radius: 2px;
+ background-color: orangered;
+}
+.gold-members .count-number-input, .menu-list .count-number-input{
+  font-size: 13px;
+}
+.menu-list img {
+  width: 41px;
+  height: 41px;
+  object-fit: cover;
+}
+
+/* col-4***************************** */
+.restaurant-detailed-earn-pts .img-fluid.float-start {
+  height: 61px;
+}
+.restaurant-detailed-earn-pts p{
+  font-size: 13px;
+  font-weight: 500;
+}
+.offerandcode{
+  font-weight: 700;
+  color: orangered;
+}
+
+/* offer */
+.generator-bg{
+background: linear-gradient(135deg,#ff3008 1%,#fe792b 100%);
+}
+.temp{
+  font-size: 13px;
+}
+.clearfix img{
+  height: 55px;
+}
+.btn-lg {
+  font-size: 15px;
+  font-weight: 700;
+  padding: 14px 35px;
+  letter-spacing: 1px;
+}
+.btn-block {
+  width: 100%;
+}
+
+/* footer**************************** */
+/* operate food store */
+
+/* footer 1 */
+.small {
+  color: grey;
+  font-size: 13px;
+  font-weight: 500;
+}
+.wwu {
+  color: orangered;
+}
+.footer1 h5 {
+  padding: 60px;
+}
+@media screen and (max-width: 768px) {
+  .footer1 h5{
+   padding: 20px;
+  }
+
+}
+@media screen and (max-width: 560px) {
+  .footer1 h5{
+   font-size: small;
+  }
+}
+
+
+/* footer 2 */
+.footer2 {
+  background-color: rgb(237, 253, 249);
+}
+
+.list li{
+  list-style-type: none;
+  margin-left: -32px;
+
+
+}
+.list a {
+  text-decoration: none;
+  color: #808080;
+  line-height: 25px;
+}
+
+@media screen and (max-width: 560px) {
+  .col-md-7 h6{
+      font-size: small;
+  }
+}
+
+.form-control{
+border-radius: 0%;
+
+}
+.footer2 .btn{ 
+  border-radius: 0%;
+  background-color: orangered;
+  color: white;
+}
+.btn:hover{
+background-color: orangered;
+}
+.footer2 .input-group{
+  width: 80%;
+}
+.input-group ::placeholder{
+  font-size: small;
+}
+@media screen and (max-width: 767.5px) {
+  .input-group{
+      width: 100%;}
+}
+.downloadapp {
+  width: 110px;
+  height: 33px;
+}
+
+/* footer4 */
+.footer4 {
+  background-color: rgb(237, 253, 249);
+  padding: 20px 0;
+}
+.footer4 h6{
+  margin-top: -8px;
+  font-size: 12px;
+}
+@media screen and (max-width: 300px) {
+  /* body{
+     display: none;
+  } */
+}
+
+
+
+
+/* GALLERY *******************************************************/
+
+.owl-item{
+  width: 686px;
+}
+
+
+.owl-prev2{
+  position: absolute;
+  left: 0;
+  margin: 0 0 0 -10px;
+  top: 42%;
+}
+.owl-next2{
+  position: absolute;
+  right: 0;
+  margin: 0 -10px 0 0 ;
+  top: 42%;
+  
+}
+#gallery .owl-nav button{
+  box-shadow: 0 2px 16px 0 rgba(0,0,0,.5);
+}
+
+.restaurant-slider-pics {
+  bottom: 0;
+  font-size: 12px;
+  left: 0;
+  padding: 0 10px;
+ 
+}
+.restaurant-slider-view-all{
+  right: 0;
+  bottom: 0;
+
+}
+
+
+/* RESTAURANT *******************************************************/
+#restaurant-info p{
+  font-size: 13px;
+ 
+}
+#restaurant-info .btn-outline{
+border: 1px solid #dee0e6;
+border-radius: 2px;
+display: inline-block;
+font-size: 14px;
+font-weight: 400;
+padding: 8px 15px;
+margin: 0 0 10px;
+}
+#restaurant-info i{
+  font-size: 14px;
+}
+
+#restaurant-info .text-info{
+  text-decoration: none;
+  color: #0f6674 !important;
+}
+@media screen and (max-width: 375px){
+  #restaurant-info iframe{
+    display: none;
+  }
+}
+
+
+/*BOOK TABLE ******************************* */
+#pills-book, #pills-book .form-control::placeholder{
+  font-size: 13px;
+}
+
+
+/* RATING ************************************** */
+.star-rating i{
+  font-size: 25px;
+  color: orangered;
+}
+.star-rating i:hover {
+  color: #0056b3;
+}
+.graph-star-rating-header i{
+  font-size: 17px;
+}
+.graph-star-rating{
+  font-size: 13px;
+}
+.reviews-members .media .me-3 {
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+}
+
+.reviews-members-header a{
+  text-decoration: none;
+}
+
+.reviews-members i{
+font-size: 13px;
+
+}
+
+.total-like {
+  border: 1px solid;
+  border-radius: 50px;
+  display: inline-block;
+  font-weight: 500;
+  height: 34px;
+  line-height: 33px;
+  padding: 0 13px;
+  vertical-align: top;
+  color: orangered;
+  font-size: 13px;
+}
+.reviews-members-footer a{
+  text-decoration: none;
+}
+.total-like-user {
+  border: 2px solid #fff;
+  height: 34px;
+  box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+  width: 34px;
+}
+.restaurant-detailed-ratings-and-reviews .seeall{
+  text-decoration: none;
+  font-size: 13px;
+  color: orangered;
+}
+.rating-review-select-page .form-control{
+  font-size: 13px;
+border-radius: 2px;
+min-height: 38px;
+}
+
+.rating-review-select-page{
+  font-size: 13px;
+}
+
+#pills-reviews .orbtn{
+  background-color: orangered;
+  color: white;
+}

@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--title-->
+    <title>Food Line - Online Food Ordering</title>
+    <!--favicon-->
+    <link rel="icon" type="logo" href="favi.png">
+
+    <!-- Bootstrap-->
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- link css -->
+    <link rel="stylesheet" href="Stylefloffer.css">
+
+    <!-- Style -->
+    <style>
+
+
+
+
+    </style>
+</head>
+
+<body>
+
+    <!-- nav bar---------------------------->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-">
+        <div class="container-fluid container1">
+            <a href="#" class="logo"><img src="img.jpg" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav p-2 list-unstyled justify-content-end ">
+                    <li class="nav-item">
+                        <a class="nav-link active " href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="FoodLineOFFER.html">
+                            <!-- font awesome -->
+                            <i class="fa fa-tag" aria-hidden="true"></i>
+                            Offers
+                            <!-- badge -->
+                            <span class="badge"> New </span>
+                        </a>
+                    </li>
+
+                    <!-- nav dropdown for res -->
+                    <li class="dropdown nav-item ">
+                        <a href="#" class="dropdown-toggle nav-link" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Restaurants
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="BSListing.html">Listing</a></li>
+                            <li><a class="dropdown-item" href="BSDetail&Cart.html">Detail + Cart</a></li>
+                            <li><a class="dropdown-item" href="#">Checkout</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- nav dropdown for pages -->
+                    <li class="dropdown nav-item ">
+                        <a href="#" class="dropdown-toggle nav-link" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Pages
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Track Order</a></li>
+                            <li><a class="dropdown-item" href="#">Invoice</a></li>
+                            <li><a class="dropdown-item" href="#">Login</a></li>
+                            <li><a class="dropdown-item" href="#">Register</a></li>
+                            <li><a class="dropdown-item" href="#">404</a></li>
+                            <li><a class="dropdown-item" href="#">Extra :)</a></li>
+                        </ul>
+
+                    </li>
+                    <!-- nav dropdown for myaccount -->
+                    <li class="dropdown nav-item ">
+                        <a href="#" class="dropdown-toggle nav-link" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="profile.jpg" class="nav-osahan-pic rounded-pill" alt="myaccount" width="23"
+                                height="23">
+                            My Account
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="Foodline-online Orders.html">
+                                    <i class="fa fa-bars" aria-hidden="true"></i>
+                                    Orders</a></li>
+                            <li><a class="dropdown-item" href="BSMyAccoffers.html">
+                                    <i class="fa fa-tag" aria-hidden="true"></i>
+                                    Offers</a></li>
+                            <li><a class="dropdown-item" href="BSMYAccfav.html">
+                                    <i class="fa fa-heart" aria-hidden="true"></i>
+                                    Favourites</a></li>
+                            <li><a class="dropdown-item" href="#">
+                                    <i class="fa fa-credit-card-alt" aria-hidden="true"></i>
+                                    Payments</a></li>
+                            <li><a class="dropdown-item" href="#">
+                                    <i class="fa fa-address-book" aria-hidden="true"></i>
+                                    Addresses</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- nav dropdown for myaccount -->
+                    <li class="dropdown nav-item ">
+                        <a href="#" class="dropdown-toggle nav-link" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <!-- font awesome -->
+                            <i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
+                            Cart
+                            <span class="badge bg-success">5</span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">
+                                    <img src="https://img.freepik.com/premium-vector/good-food-logo-template_79169-17.jpg"
+                                        alt="goodfood" width="50" height="50"
+                                        style="border: 1px solid grey; border-radius: 3px;">
+                                    Gus's World Famous Chicken</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+                </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    </div>
+
+
+    <!-- banner-------------------------- -->
+    <div class="banner bg-black text-center">
+        <h1 class="text-white">Offer for you</h1>
+        <h6 class="text-white-50">Explore top deals and offers exclusively for you!</h6>
+    </div>
+
+
+    <!-- section --------------------------->
+    <div class="section ">
+        <div class="container-fluid container2  pb-5 ">
+
+            <h4 class="pt-5 fw-bold text-black  ">Available Coupons</h4>
+
+            <!-- row for first 3 box images ----------------------------------------->
+            <div class="row justify-content-center">
+                <!-- img1 -->
+                <div class="col-md-4">
+                    <div class="img1 mt-3 shadow">
+
+                        <div class="bo">
+                            <div class="innerbo ps-1">
+                                <img class="mb-1" id="img1" src="https://cdn-icons-png.flaticon.com/512/217/217425.png"
+                                    alt="visa">
+                                <h6 class="d-inline text-info">
+                                    OSAHANEAT50 </h6>
+                            </div>
+                        </div>
+
+                        <h6 class="pt-3 text-black"> Get 50% OFF on your first food line order</h6>
+                        <p class="small">Use code OSAHANEAT50 & get 50% off on your first
+                            osahan order on website and Mobile site. Maximum
+                            discount: $200</p>
+                        <div class="clickbtn">
+                            <a class="copyc" href="">COPY CODE</a>
+                            <a class="ms-3" href="">KNOW MORE</a>
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- img2 -->
+                <div class="col-md-4">
+                    <div class="img1 mt-3 img2 shadow">
+
+                        <div class="bo">
+                            <div class="innerbo ps-1">
+
+                                <img class="mb-1" id="img1" src="https://cdn-icons-png.flaticon.com/512/410/410331.png"
+                                    alt="visa">
+                                <h6 class="d-inline text-info">
+                                    EAT730 </h6>
+                            </div>
+                        </div>
+
+                        <h6 class="pt-3 text-black"> Get 50% OFF on your first food line order</h6>
+                        <p class="small">Use code EAT730 & get 50% off on your first osahan order on Website and Mobile
+                            site. Maximum discount: $600</p>
+                        <div class="clickbtn">
+                            <a class="copyc" href="">COPY CODE</a>
+                            <a class="ms-3" href="">KNOW MORE</a>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- img3 -->
+                <div class="col-md-4 ">
+                    <div class="img1 mt-3 img3 shadow">
+
+                        <div class="bo">
+                            <div class="innerbo ps-1">
+                                <img class="mb-1" id="img1"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Circle-icons-creditcard.svg/2048px-Circle-icons-creditcard.svg.png"
+                                    alt="visa">
+                                <h6 class="d-inline text-info">
+                                    SAHAN50 </h6>
+                            </div>
+                        </div>
+
+                        <h6 class="pt-3 text-black"> Get 50% OFF on your first food line order</h6>
+                        <p class="small">Use code SAHAN50 & get 50% off on your first osahan order on Website and Mobile
+                            site. Maximum discount: $200</p>
+                        <div class="clickbtn">
+                            <a class="copyc" href="">COPY CODE</a>
+                            <a class="ms-3" href="">KNOW MORE</a>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+            </div><!-- row ends -->
+
+
+            <!-- row for second 3 box images -------------------------------------------->
+            <div class="row row2 pt-4">
+                <!-- img4 -->
+                <div class="col-md-4">
+                    <div class="img1 mt-3 img4 shadow">
+
+                        <div class="bo">
+                            <div class="innerbo ps-1">
+                                <img class="mb-1" id="img1"
+                                    src="https://e7.pngegg.com/pngimages/413/699/png-clipart-financial-engineering-introduction-to-c-finance-c-credit-card-miscellaneous-blue-thumbnail.png"
+                                    alt="visa">
+                                <h6 class="d-inline text-info">
+                                    GURDEEP50 </h6>
+                            </div>
+                        </div>
+
+                        <h6 class="pt-3 text-black"> Get 50% OFF on your first food line order</h6>
+                        <p class="small">Use code GURDEEP50 & get 50% off on your first osahan order on Website and
+                            Mobile site. Maximum discount: $600</p>
+                        <div class="clickbtn">
+                            <a class="copyc" href="">COPY CODE</a>
+                            <a class="ms-3 " href="">KNOW MORE</a>
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- img5 -->
+                <div class="col-md-4 ">
+                    <div class="img1 mt-3 img5 shadow">
+
+                        <div class="bo">
+                            <div class="innerbo ps-1">
+                                <img class="mb-1" id="img1"
+                                    src="https://www.shareicon.net/data/2015/08/29/92601_card_512x512.png" alt="visa">
+                                <h6 class="d-inline text-info">
+                                    EA9T50 </h6>
+                            </div>
+                        </div>
+
+                        <h6 class="pt-3 text-black"> Get 50% OFF on your first food line order</h6>
+                        <p class="small">Use code EAT50 & get 50% off on your first osahan order on Website and
+                            Mobile site. Maximum discount: $100</p>
+                        <div class="clickbtn">
+                            <a class="copyc" href="">COPY CODE</a>
+                            <a class="ms-3" href="">KNOW MORE</a>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- img6 -->
+                <div class="col-md-4">
+                    <div class="img1 mt-3 img6 shadow">
+
+                        <div class="bo">
+                            <div class="innerbo ps-1">
+                                <img class="mb-1" id="img1" src="https://cdn-icons-png.flaticon.com/512/217/217437.png"
+                                    alt="visa">
+                                <h6 class="d-inline text-info">
+                                    ETTTAT50 </h6>
+                            </div>
+                        </div>
+
+                        <h6 class="pt-3 text-black"> Get 50% OFF on your first food line order</h6>
+                        <p class="small">Use code SAHAN50 & get 50% off on your first osahan order on Website and
+                            Mobile site. Maximum discount: $200</p>
+                        <div class="clickbtn">
+                            <a class="copyc" href="">COPY CODE</a>
+                            <a class="ms-3" href="">KNOW MORE</a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div><!-- row 2 ends -->
+
+
+
+
+
+
+            <!-- bank offer------------------------------------------------ -->
+            <h4 class="pt-5 fw-bold text-black pb-3">Bank Offers</h4>
+
+            <div class="row row3">
+
+                <div class="col-md-6 col6 ">
+
+                    <div class="card border-0 shadow">
+
+                        <div class="row d-flex align-items-center ">
+                            <div class="col-md-4 col-4 p-4 ">
+
+                                <img src="https://cdn-icons-png.flaticon.com/512/217/217430.png" class="card-img"
+                                    alt="jcb">
+
+
+                            </div><!-- col 4 -->
+                            <div class="col-md-8 col-8 ">
+                                <div class="card-body">
+
+                                    <h5 class="pt-2 text-black">Get flat $.30 cashback using Amazon Pay</h5>
+                                    <p class="small">Get flat $.30 cashback on orders above $.99 for 10 orders. No code
+                                        required.</p>
+                                    <p class="small text-info">other T&Cs may apply</p>
+
+
+
+                                </div>
+                            </div><!-- col-8-- -->
+                        </div><!-- row -->
+                    </div><!-- card -->
+
+                </div>
+                <!--col6  bank1------------------------->
+
+
+
+
+
+                <!-- bank offer ------------------2 -->
+
+                <div class="col-md-6 col6 bank2 ">
+
+                    <div class="card border-0 shadow">
+
+                        <div class="row d-flex align-items-center">
+                            <div class="col-md-4 col-4 p-4 ">
+
+                                <img src="https://cdn-icons-png.flaticon.com/512/217/217449.png" class="card-img"
+                                    alt="union">
+
+
+                            </div><!-- col 4 -->
+                            <div class="col-md-8 col-8 ">
+                                <div class="card-body">
+
+                                    <h5 class="pt-2 text-black">Get flat $.30 cashback using Osahan Pay</h5>
+                                    <p class="small">Get flat $.30 cashback on orders above $.99 for 10 orders. No code
+                                        required.</p>
+                                    <p class="small text-info">other T&Cs may apply</p>
+
+
+
+                                </div>
+                            </div><!-- col-8-- -->
+                        </div><!-- row -->
+                    </div><!-- card -->
+
+                </div>
+                <!--col6  bank1------------------------->
+
+            </div><!-- row 3 ends -->
+
+        </div><!-- cont-fluid -->
+    </div><!-- sec -->
+
+
+
+     <!-- footer 1 -------------------------------------------->
+     <div class=" footer1 bg-white">
+
+        <h5 class="text-black text-center">
+            Operate food store or Restaurants? <span class="wwu">Work With Us</span>
+        </h5>
+
+    </div>
+
+
+      <!-- footer 2 -------------------------------------------->
+      <div class="footer2">
+        <div class="container-fluid">
+            <div class="row ">
+            <div class="col-md-5 col-12 pt-5">
+                <h6 class="text-black">SUBSCRIBE TO OUR NEWSLETTER</h6>
+
+                <div class="input-group">
+                <input type="text" placeholder="Please enter your email" class="form-control">
+                <div class="input-group-append">
+                <button type="button" class="btn btn-danger">
+                    Subscribe
+                    </button>
+                </div>
+            </div>
+
+
+            <p class="small mt-1"> <span class="text-info">Register now</span> to get updates on <span class="wwu">
+                offers and Coupons</span></p>
+        <p class="small mb-2">DOWNLOAD APP</p>
+        <input class="downloadapp" type="image" src="google.png" alt="googlepay">
+        <input class="downloadapp" type="image" src="apple.png" alt="googlepay">
+                
+
+               
+            </div> <!-- col 5 -->
+        
+      <div class="col-md-7 pt-5 pb-5">
+        
+        <div class="row">
+        <div class="col-md-4 col-4">
+            <h6 class="text-black">ABOUT OE</h6>
+            <ul class="list small">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Culture</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Contact</a></li>
+
+            </ul>
+        </div>
+
+        <div class="col-md-4 col-4">
+            <h6 class="text-black">FOR FOODIES</h6>
+            <ul class="list small">
+                <li><a href="#">Community</a></li>
+                <li><a href="#">Developers</a></li>
+                <li><a href="#">Blogger Help</a></li>
+                <li><a href="#">Verified Users</a></li>
+                <li><a href="#">Code of Conduct</a></li>
+
+            </ul>
+        </div>
+
+        <div class="col-md-4 col-4">
+            <h6 class="text-black">FOR RESTAURANTS</h6>
+            <ul class="list small">
+                <li><a href="#">Advertise</a></li>
+                <li><a href="#">Add a Restaurant</a></li>
+                <li><a href="#">Claim your listing</a></li>
+                <li><a href="#">For Business</a></li>
+                <li><a href="#">Owner Guidelines</a></li>
+
+            </ul>
+        </div>
+
+    </div>
+
+      </div> <!-- col 7 -->
+    </div><!-- row ends -->
+    </div><!-- footer2 cont fluid -->
+</div><!-- footer2 -->
+
+<!-- footer 3--------------------------------------------------------- -->
+
+<div class="container-fluid footer3 pt-5 pb-5">
+
+    <div class="footerthree">
+        <h6 class="text-black">POPULAR COUNTRIES</h6>
+        <P class="small mt-3">
+            Australia | Brasil | Canada | Chile | Czech Republic | India | Indonesia | Ireland | New Zealand |
+            United Kingdom | Turkey | Philippines | Sri Lanka | Australia | Brasil | Canada | Chile
+            | Czech Republic | India | Indonesia | Ireland | New Zealand | United Kingdom | Turkey | Philippines |
+            Sri Lanka Australia | Brasil | Canada | Chile | Czech Republic | India | Indonesia
+            | Ireland | New Zealand | United Kingdom | Turkey | Philippines | Sri Lanka | Australia | Brasil |
+            Canada | Chile | Czech Republic | India | Indonesia | Ireland | New Zealand | United
+            Kingdom | Turkey | Philippines | Sri Lanka
+        </P>
+        <h6 class="mt-4 text-black">POPULAR FOOD</h6>
+        <p class="small mt-3">
+            Fast Food | Chinese | Street Food | Continental | Mithai | Cafe | South Indian | Punjabi Food | Fast
+            Food | Chinese | Street Food | Continental | Mithai | Cafe | South Indian | Punjabi
+            Food Fast Food | Chinese | Street Food | Continental | Mithai | Cafe | South Indian | Punjabi Food |
+            Fast Food | Chinese | Street Food | Continental | Mithai | Cafe | South Indian |
+            Punjabi Food
+        </p>
+    </div>
+
+    </div>
+
+    <!-- footer 4------------------------------------------------------------------ -->
+
+    <div class="footer4 text-center">
+
+        <div class="footerfo lh-1">
+            <p class="small">© Copyright 2019 Food Line. All Rights Reserved </p>
+            <h6 class="small text-black">Made with ❤️ by <span class="wwu"> Balamurugan - Ask Bootstrap </span> </h6>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+
+
+
+       
+
+            
+            
+        

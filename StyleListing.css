@@ -1,0 +1,372 @@
+/* header */
+* {
+    box-sizing: border-box;
+}
+
+.badge {
+    font-size: x-small;
+    background-color: rgb(255, 69, 2);
+    vertical-align: text-bottom;
+}
+
+nav ul li {
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+nav ul li a {
+    text-align: center;
+}
+
+/* ***************************************** */
+/* banner */
+.banner {
+    padding: 60px;
+}
+
+.text-white {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media screen and (max-width: 991px) {
+    .banner {
+        padding: 20px;
+    }
+}
+
+/* important */
+
+.container-fluid {
+    max-width: 1140px;
+}
+
+/* ***************************************** */
+/*row1  col3*/
+section{
+    background-color: rgb(237, 253, 249);
+}
+.border-bottom {
+    border-bottom: 1px solid #dee2e6;
+
+}
+
+.btn-link {
+    text-decoration: none;
+}
+
+.filters-card-body {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+input[type=checkbox] {
+    vertical-align: middle;
+}
+
+.custom-control {
+    min-height: 24px;
+}
+
+.custom-control-label {
+    display: inline;
+}
+
+.seeall a {
+    text-decoration: none;
+    color: orangered;
+}
+
+a:hover {
+    color: blue;
+}
+
+.filters-search {
+    position: relative;
+}
+
+.fa-search {
+    position: absolute;
+    left: 12px;
+    top: 11px;
+    font-size: medium;
+    opacity: 70%;
+}
+
+.form-group input::placeholder {
+    font-size: small;
+}
+
+.collapse input[type="text"] {
+    padding-left: 40px;
+}
+
+input[type=radio] {
+    vertical-align: middle;
+}
+
+/* ***************************************** */
+/*row  col9*/
+.owl-item:hover {
+
+    outline: red 1px solid;
+
+}
+
+.owl-item a {
+    text-decoration: none;
+    line-height: 5px;
+}
+
+.owl-item h6 {
+    color: orangered;
+}
+
+.osahan-category-item img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50px;
+    margin: 5px 30px;
+
+}
+
+@media screen and (max-width: 1200px) {
+
+    .owl-item,
+    .owl-nav button {
+        display: none;
+    }
+}
+
+.col-md-9 {
+    position: relative;
+}
+
+.owl-prev {
+    position: absolute;
+    left: 0;
+    top: 30px;
+}
+
+.owl-next {
+    position: absolute;
+    right: 0;
+    top: 30px;
+}
+
+.owl-theme .owl-nav button {
+    border-radius: 30px;
+    box-shadow: 0 2px 16px 0 rgba(0, 0, 0, .2);
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    background-color: white;
+    border: none;
+}
+
+.owl-nav button i {
+    font-size: 13px !important;
+    opacity: .8;
+}
+
+
+/* images********************************************************** */
+/* .col-md-4{
+    width: 33.2%;
+} */
+.list-card-image img {
+    height: 180px;
+        width: 100%;
+    object-fit: cover;
+}
+
+.list-card-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.member-plan {
+    position: absolute;
+
+}
+.favourite-heart{
+   position: absolute;
+   right: 0;
+  
+}
+.list-card .favourite-heart i {
+    background:white;
+    width: 23px;
+    height: 23px;
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+    line-height: 24px;
+    border-radius: 50px;
+    color: red;
+  }
+  .list-card .favourite-heart i:hover{
+    color: blue;
+  }
+
+.badge2{
+    background-color: rgb(62, 62, 62);
+}
+
+.star{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+   
+}
+.star i{
+    vertical-align: middle;
+}
+.list-card-body a{
+    text-decoration: none;
+}
+.list-card-body p, .list-card-badge{
+    font-size: 13px;
+}
+.time1{
+    background-color: rgb(228, 228, 228); 
+}
+.list-card-badge small{
+    font-weight: 500;
+}
+.badge3, .badge2, .badge, .badge4{
+    font-weight:500;
+}
+
+/* footer**************************** */
+/* operate food store */
+
+/* footer 1 */
+.small {
+    color: grey;
+    font-size: 13px;
+    font-weight: 500;
+}
+.wwu {
+    color: orangered;
+}
+.footer1 h5 {
+    padding: 60px;
+}
+@media screen and (max-width: 768px) {
+    .footer1 h5{
+     padding: 20px;
+    }
+  
+ }
+ @media screen and (max-width: 560px) {
+    .footer1 h5{
+     font-size: small;
+    }
+ }
+
+
+ /* footer 2 */
+ .footer2 {
+    background-color: rgb(237, 253, 249);
+}
+
+.list li{
+    list-style-type: none;
+    margin-left: -32px;
+
+
+}
+.list a {
+    text-decoration: none;
+    color: #808080;
+    line-height: 25px;
+}
+
+@media screen and (max-width: 560px) {
+    .col-md-7 h6{
+        font-size: small;
+    }
+ }
+
+ .form-control{
+ border-radius: 0%;
+ 
+ }
+ .footer2 .btn{ 
+    border-radius: 0%;
+    background-color: orangered;
+    color: white;
+ }
+ .btn:hover{
+background-color: orangered;
+ }
+.input-group{
+    width: 80%;
+}
+.input-group ::placeholder{
+    font-size: small;
+}
+@media screen and (max-width: 767.5px) {
+    .input-group{
+        width: 100%;}
+ }
+ .downloadapp {
+    width: 110px;
+    height: 33px;
+}
+
+/* footer4 */
+.footer4 {
+    background-color: rgb(237, 253, 249);
+    padding: 20px 0;
+}
+.footer4 h6{
+    margin-top: -8px;
+    font-size: 12px;
+}
+@media screen and (max-width: 300px) {
+    /* body{
+       display: none;
+    } */
+}
+ 
+
+
+/* My account offferss************************************************************************************ */
+
+.osahan-account-page-left{
+    font-size: 13px;
+}
+.osahan-user-media img {
+    width: 90px;
+}
+.osahan-user-media-body a{
+text-decoration: none;
+}
+.osahan-user-media-body .text-danger:hover {
+    color: #0056b3 !important;
+}
+.nav-tabs1{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+   
+  }
+  .osahan-account-page-left .nav-link.active {
+    background: #f3f7f8;
+    color: #282c3f !important;
+  }
+  .osahan-account-page-left .nav-link {
+    padding: 18px 20px;
+    border: none;
+    font-weight: 600;
+  }
+  .nav-link {
+    display: block;
+    color: #282c3f !important;}
